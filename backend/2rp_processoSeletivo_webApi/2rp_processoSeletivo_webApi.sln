@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2rp_processoSeletivo_webApi", "2rp_processoSeletivo_webApi\2rp_processoSeletivo_webApi.csproj", "{A96C114F-15D8-44A6-AC5E-E0A1270A6D1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96C114F-15D8-44A6-AC5E-E0A1270A6D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96C114F-15D8-44A6-AC5E-E0A1270A6D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96C114F-15D8-44A6-AC5E-E0A1270A6D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96C114F-15D8-44A6-AC5E-E0A1270A6D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E12B2C8B-6325-4BC8-BCD9-1240EFCFC50A}
+	EndGlobalSection
+EndGlobal
