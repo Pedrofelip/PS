@@ -10,8 +10,6 @@ namespace _2rp_processoSeletivo_webApi.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
-    public class usuarioController : ControllerBase
-    {
 
         public class UsuariosController : ControllerBase
         {
@@ -32,7 +30,6 @@ namespace _2rp_processoSeletivo_webApi.Controllers
             /// Lista todos os usuários
             /// </summary>
             /// <returns>Uma lista de usuários e um status code 200 - Ok</returns>
-            [Authorize]
             [HttpGet]
             public IActionResult Get()
             {
@@ -131,4 +128,3 @@ namespace _2rp_processoSeletivo_webApi.Controllers
             }
         }
     }
-}

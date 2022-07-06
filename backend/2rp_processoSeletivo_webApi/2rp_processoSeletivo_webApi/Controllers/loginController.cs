@@ -79,7 +79,7 @@ namespace _2rp_processoSeletivo_webApi.Controllers
                     new Claim("role", usuarioBuscado.IdTipoUsuario.ToString()),
 
                     // Armazena na Claim o tipo de usuário que foi autenticado (Administrador ou Comum)
-                    new Claim(ClaimTypes.Role, usuarioBuscado.IdStatus.ToString()),
+                    new Claim("statusUsuario", usuarioBuscado.IdStatus.ToString()),
 
                 };
 

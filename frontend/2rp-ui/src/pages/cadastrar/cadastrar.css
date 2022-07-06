@@ -1,0 +1,125 @@
+.posicao_itens{
+    width: 100%;
+    height: 847px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_fundo{
+    width: 1100px;
+    height: 520px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    box-shadow: -6px 7px 10px 0px rgba(0, 0, 0, 0.205);
+}
+
+.form_posicao{
+    display: flex;
+    justify-content: space-around ;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.inputs_posicao{
+    margin-top: 75px;
+    width: 42.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selects_posicao{
+    margin-top: 75px;
+    width: 42.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.login_label{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #0072B1;
+    padding: 25px 20px 3px;
+    text-transform: capitalize;
+}
+
+.cadastro_input{
+    width: 100%;
+    height: 40px;
+    border: 2px #0072B1 solid;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #004164;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.login_input:focus{
+    outline:none
+}
+
+.select_cadastro{
+    width: 100%;
+    height: 40px;
+    border: 2px #0072B1 solid;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #004164;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.select_cadastro:focus{
+    outline: none;
+}
+
+.btn_cadastro{
+    width: 217px;
+    height: 57px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #0072B1;
+    color: white;
+    border:none;
+}
+
+.btn_cadastro:hover{
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.363);
+    transition: 0.15s;
+    transform: scale(1.04);
+}
+
+.btn_cadastro:active{
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.363);
+    transition: 0.05s;
+    transform: scale(1.00);
+}
+
+.cadastro_loading{
+    width: 217px;
+    height: 57px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #005481;
+    color: rgb(204, 203, 203);
+}
+
+.btn_posicao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+}

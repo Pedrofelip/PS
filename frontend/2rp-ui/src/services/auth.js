@@ -10,3 +10,5 @@ export const parseJwt = () => {
     // e converte a string para JSON
     return JSON.parse(window.atob(base64));
 }
+
+

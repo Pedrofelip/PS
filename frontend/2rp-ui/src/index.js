@@ -1,24 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Routes, Redirect } from 'react-router-dom';
+import { Route, BrowserRouter, Routes, Redirect } from 'react-router-dom';
 import { parseJwt, usuarioAutenticado } from './services/auth';
 
 import './index.css';
 
 import App from './pages/perfilUsuario/App';
-
+import Login from './pages/login/login'
+import Home from './pages/home/home'
+import Cadastrar from './pages/cadastrar/cadastrar'
+import Listar from './pages/listarUsuario/listarUsuario'
 
 import reportWebVitals from './reportWebVitals';
 
 
+
+
 const routing = (
-  <Router>
+  <BrowserRouter>
       <Routes>
-        <Route exact path="/">
-          {App}
-        </Route>
+        <Route path="/perfil" element = {<App/>}/>
+        <Route path="/" element = {<Login/>}/>
+        <Route path="/home" element = {<Home/>}/>
+        <Route path="/cadastrar" element = {<Cadastrar/>}/>
+        <Route path="/listar" element = {<Listar/>}/>
       </Routes>
-  </Router>
+  </BrowserRouter>
 );
 
 ReactDOM.render(routing, document.getElementById('root'));

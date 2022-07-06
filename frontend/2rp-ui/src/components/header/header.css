@@ -1,6 +1,116 @@
 .cabecalho{
-    width: 100%;
-    height: 110px;
-    background-color: #00293F;
-    
+  width: 100%;
+  height: 90px;
+  background-color: #00293F;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.itens_cabecalho{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+}
+
+.btn_sair{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_voltar{
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.icon:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.icon:active{
+  transition: 0.25s;
+  transform: scale(1.05);
+}
+
+.icon:focus{
+  outline: none;
+}
+
+
+/* Modal Content/Box */
+#popUp{
+  display: none;
+}
+
+.conteudo_modal {
+  background-color: #ED4343;
+  width: 27%;
+  height: 160px;
+  border-radius: 15px;
+  /* margin-top: 210px; */
+  /* margin-left: 700px; */
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.6s;
+  animation-name: animatetop;
+  animation-duration: 0.6s
+}
+
+.conteudo_modal > p{
+  color: #EFEEE0;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.posicionamento_btns{
+  /* background-color: aqua; */
+  width: 97%;
+  height: 105px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.btns_modal{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.btn_modal_f{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #EFEEE0;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_modal_ok{
+  padding: 3px 13px 3px 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #FF0000;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  border: solid 1px #EFEEE0;
+  background-color: #EFEEE0;
 }

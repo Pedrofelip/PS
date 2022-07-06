@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700&display=swap');
+
+.fundo_site{
+    width: 100%;
+    height: 937px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo_login{
+    width: 1390px;
+    height: 740px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    display: flex;
+    box-shadow: -6px 7px 10px 0px rgba(0, 0, 0, 0.205);
+}
+
+.img_login{
+    background-image: linear-gradient(45deg,#0067a3c0,#0067a3c0), url(../../imgs/transacao-de-credito.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 67%;
+    height: 740px;
+    border-radius: 25px 0 0 25px;
+
+}
+
+.fundo_form{
+    width: 33%;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 75px;
+    /* background-color: aqua; */
+}
+
+.fundo_input{
+    width: 90%;
+    /* background-color: aqua; */
+}
+
+.posicao_inputs{
+    /* background-color: bisque; */
+    margin-bottom: 60px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.label_login{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #0072B1;
+    padding: 25px 20px 3px;
+}
+
+.input_login{
+    width: 100%;
+    height: 42px;
+    border: 2px #0072B1 solid;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #004164;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.input_login:focus{
+    outline:none
+}
+
+.posicao_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_login{
+    width: 213px;
+    height: 52px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: #0072B1;
+    color: white;
+    border:none;
+}
+
+.btn_login:hover{
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.363);
+    transition: 0.15s;
+    transform: scale(1.04);
+}
+
+.btn_login:active{
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.363);
+    transition: 0.05s;
+    transform: scale(1.00);
+}
+
+.btn_loading{
+    width: 213px;
+    height: 52px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: #005481;
+    color: rgb(204, 203, 203);
+}
+
+
+.error_massage{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: red;
+}
